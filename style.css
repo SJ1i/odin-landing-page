@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #E5E7EB
+}
+/*
+-->Content Table<--
+1. Header
+    1.a. Navigation Bar
+    2.a. Hero Section
+    3.a. hydribd between 1.a. and 2.a.
+2. Information Section
+3.
+4.
+*/
+
+
+/*1. Header*/
+header {
+    background-color: #1F2937;
+    padding: 0 120px;
+}
+/*1.a. Navigation Bar*/
+.header-nav {
+    padding-top: 20px;
+    display: flex;
+}
+.header-nav-logo {
+    font-size: 24px;
+}
+.header-nav-links {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+/*2.a. Hero Section*/
+.hero {
+    padding: 120px 0;
+    display: flex;
+    gap: 18px;
+}
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero-text button {
+    font: initial; /*forces button to use same font as other elements*/
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.hero-image {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*3.a. hydribd between 1.a. and 2.a.*/
+.header-nav-logo,
+.hero-text h1 {
+    color: #F9FAF8;
+}
+
+.header-links,
+.hero p,
+.hero-text button {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+
+/* 2. Information Section */
