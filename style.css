@@ -27,6 +27,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB
 }
 a:visited {
     color: #E5E7EB
@@ -53,7 +54,6 @@ button {
     color: #F9FAF8;
 }
 
-.header-links,
 .hero p,
 .call-to-action-text .bottom {
     font-size: 18px;
